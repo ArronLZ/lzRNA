@@ -1,0 +1,19 @@
+Package: lzRNA
+Type: Package
+Title: RNAseq analysis pipeline & other skill
+Version: 0.1.0
+Date: 2023-05-23
+Author: Farmer
+Maintainer: Turkey <yydslz@sina.com>
+Description: The package is mainly designed for analyzing RNAseq data.
+    Including some other interesting functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.2.3
+Depends:
+    dplyr,
+    stats,
+    tibble
+Imports: 
+    edgeR
